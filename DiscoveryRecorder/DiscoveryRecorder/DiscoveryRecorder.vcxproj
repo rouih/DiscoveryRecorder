@@ -91,7 +91,7 @@
       <PreprocessorDefinitions>WIN32</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\resources\WpdPack_4_1_2\WpdPack\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\resources;C:\resources\WpdPack_4_1_2\WpdPack\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -109,7 +109,7 @@
       <PreprocessorDefinitions>WIN32</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\resources\WpdPack_4_1_2\WpdPack\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\resources\json;C:\resources\WpdPack_4_1_2\WpdPack\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -165,6 +165,7 @@
   <ItemGroup>
     <ClInclude Include="AbstractAdapter.h" />
     <ClInclude Include="Guid.h" />
+    <ClInclude Include="JsonObjectSerlizer.h" />
     <ClInclude Include="NetAdapter.h" />
     <ClInclude Include="NetAdapters.h" />
     <ClInclude Include="ParticipantDiscoveryData.h" />
@@ -177,11 +178,13 @@
   <ItemGroup>
     <ClCompile Include="AbstractAdapter.cpp" />
     <ClCompile Include="Guid.cpp" />
+    <ClCompile Include="JsonObjectSerlizer.cpp" />
     <ClCompile Include="NetAdapter.cpp" />
     <ClCompile Include="NetAdapters.cpp" />
     <ClCompile Include="ParticipantDiscoveryData.cpp" />
     <ClCompile Include="ParticipantDiscoveryDataConverter.cpp" />
     <ClCompile Include="SarigListener.cpp" />
+    <ClCompile Include="Source.cpp" />
     <ClCompile Include="WriterDiscoveryData.cpp" />
     <ClCompile Include="WriterDiscoveryDataConverter.cpp" />
   </ItemGroup>

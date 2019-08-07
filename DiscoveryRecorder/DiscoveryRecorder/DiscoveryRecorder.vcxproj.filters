@@ -57,6 +57,9 @@
     <ClInclude Include="Guid.h">
       <Filter>Header Files\Converter</Filter>
     </ClInclude>
+    <ClInclude Include="JsonObjectSerlizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbstractAdapter.cpp">
@@ -85,6 +88,12 @@
     </ClCompile>
     <ClCompile Include="Guid.cpp">
       <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonObjectSerlizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
