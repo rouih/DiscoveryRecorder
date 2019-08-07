@@ -172,6 +172,10 @@
     <ClInclude Include="ParticipantDiscoveryData.h" />
     <ClInclude Include="ParticipantDiscoveryDataConverter.h" />
     <ClInclude Include="SarigListener.h" />
+	<ClInclude Include="packetsPool.h" />
+    <ClInclude Include="rawPacketsPool.h" />
+	<ClInclude Include="decryptedPacketPool.h" />
+    <ClInclude Include="decryptedRtpsPacket.h" />
     <ClInclude Include="IAdapter.h" />
     <ClInclude Include="WriterDiscoveryData.h" />
     <ClInclude Include="WriterDiscoveryDataConverter.h" />
