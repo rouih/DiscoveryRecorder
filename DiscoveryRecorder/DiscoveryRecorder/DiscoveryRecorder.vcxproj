@@ -109,7 +109,7 @@
       <PreprocessorDefinitions>WIN32</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\resources\WpdPack_4_1_2\WpdPack\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\resources\json;C:\resources\WpdPack_4_1_2\WpdPack\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -185,6 +185,7 @@
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="AbstractAdapter.cpp" />
     <ClCompile Include="Guid.cpp" />
+    <ClCompile Include="JsonObjectSerlizer.cpp" />
     <ClCompile Include="NetAdapter.cpp" />
     <ClCompile Include="NetAdapters.cpp" />
     <ClCompile Include="ParticipantDiscoveryData.cpp" />
