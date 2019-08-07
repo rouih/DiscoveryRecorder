@@ -166,14 +166,22 @@
     <ClInclude Include="AbstractAdapter.h" />
     <ClInclude Include="NetAdapter.h" />
     <ClInclude Include="NetAdapters.h" />
+    <ClInclude Include="ParticipantDiscoveryData.h" />
+    <ClInclude Include="ParticipantDiscoveryDataConverter.h" />
     <ClInclude Include="SarigListener.h" />
     <ClInclude Include="IAdapter.h" />
+    <ClInclude Include="WriterDiscoveryData.h" />
+    <ClInclude Include="WriterDiscoveryDataConverter.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbstractAdapter.cpp" />
     <ClCompile Include="NetAdapter.cpp" />
     <ClCompile Include="NetAdapters.cpp" />
+    <ClCompile Include="ParticipantDiscoveryData.cpp" />
+    <ClCompile Include="ParticipantDiscoveryDataConverter.cpp" />
     <ClCompile Include="SarigListener.cpp" />
+    <ClCompile Include="WriterDiscoveryData.cpp" />
+    <ClCompile Include="WriterDiscoveryDataConverter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

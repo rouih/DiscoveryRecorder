@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Converter">
+      <UniqueIdentifier>{801243e0-929a-4ffb-9a87-14aa193bccf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{62fbd775-eee7-4efe-b7a3-5b796ae52310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Converter">
+      <UniqueIdentifier>{4e5e77dd-63e0-450b-bb47-658572126b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{9b9c1baf-6a2a-4651-a8e4-7dd3e4c6d288}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IAdapter.h">
@@ -30,6 +42,18 @@
     <ClInclude Include="SarigListener.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ParticipantDiscoveryData.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="WriterDiscoveryData.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticipantDiscoveryDataConverter.h">
+      <Filter>Header Files\Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="WriterDiscoveryDataConverter.h">
+      <Filter>Header Files\Converter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbstractAdapter.cpp">
@@ -43,6 +67,18 @@
     </ClCompile>
     <ClCompile Include="SarigListener.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticipantDiscoveryData.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticipantDiscoveryDataConverter.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="WriterDiscoveryData.cpp">
+      <Filter>Source Files\Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="WriterDiscoveryDataConverter.cpp">
+      <Filter>Source Files\Converter</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
