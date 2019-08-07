@@ -14,9 +14,9 @@ class packetsPool{
 	}
 
 public:
-	static packetsPool* getInstance();
-	virtual void push(T p1);
-	virtual T pop();
+	virtual static packetsPool* getInstance() = 0;
+	virtual void push(T p1) = 0;
+	virtual T pop() = 0;
 };
 
 
