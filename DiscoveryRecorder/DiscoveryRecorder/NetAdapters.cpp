@@ -26,9 +26,10 @@ vector<NetAdapter> NetAdapters::getNetAdapters()
 
 void NetAdapters::buildAdaptersList(pcap_if_t* pcapAdapters, vector<NetAdapter>* adapters)
 {
-	for(auto curradp = _pcapAdapters; curradp !=NULL;curradp = curradp->next){
+	for (auto curradp = _pcapAdapters; curradp != NULL; curradp = curradp->next) {
 		string currAdpName = curradp->name;
 		string currAdpDesc = curradp->description;
 		NetAdapter netAdap(currAdpName, currAdpDesc, curradp);
 		adapters->push_back(netAdap);
 	}
+}

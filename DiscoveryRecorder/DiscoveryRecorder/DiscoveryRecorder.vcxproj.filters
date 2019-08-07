@@ -18,30 +18,30 @@
     <ClInclude Include="IAdapter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\AbstractAdapter.h">
+    <ClInclude Include="AbstractAdapter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\NetAdapter.h">
+    <ClInclude Include="NetAdapter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\NetAdapters.h">
+    <ClInclude Include="NetAdapters.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\SarigListener.h">
+    <ClInclude Include="SarigListener.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\AbstractAdapter.cpp">
+    <ClCompile Include="AbstractAdapter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\NetAdapter.cpp">
+    <ClCompile Include="NetAdapter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\NetAdapters.cpp">
+    <ClCompile Include="NetAdapters.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\SarigListener.cpp">
+    <ClCompile Include="SarigListener.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
