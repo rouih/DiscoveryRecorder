@@ -106,10 +106,13 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\resources\WpdPack_4_1_2\WpdPack\Include;C:\resources\WpdPack_4_1_2;C:\resources\WpdPack_4_1_2\WpdPack\Include\pcap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\resources\WpdPack_4_1_2\WpdPack\Lib\x64;C:\resources\WpdPack_4_1_2\WpdPack\Include;C:\resources\WpdPack_4_1_2\WpdPack\Include\pcap;C:\resources\WpdPack_4_1_2;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wpcap.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -153,11 +156,13 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\AbstractAdapter.h" />
     <ClInclude Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\NetAdapter.h" />
+    <ClInclude Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\NetAdapters.h" />
     <ClInclude Include="IAdapter.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\AbstractAdapter.cpp" />
     <ClCompile Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\NetAdapter.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\NetAdapters.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

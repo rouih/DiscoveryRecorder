@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 #include "IAdapter.h"
+
+
 using std::string;
 class AbstractAdapter  :public IAdapter {
 public:
