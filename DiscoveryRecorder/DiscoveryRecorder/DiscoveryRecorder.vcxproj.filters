@@ -80,5 +80,8 @@
     <ClCompile Include="WriterDiscoveryDataConverter.cpp">
       <Filter>Source Files\Converter</Filter>
     </ClCompile>
+    <ClCompile Include="JsonObjectSerlizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
