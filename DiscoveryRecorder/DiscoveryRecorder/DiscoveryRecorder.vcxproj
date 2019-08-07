@@ -164,6 +164,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AbstractAdapter.h" />
+    <ClInclude Include="Guid.h" />
     <ClInclude Include="NetAdapter.h" />
     <ClInclude Include="NetAdapters.h" />
     <ClInclude Include="ParticipantDiscoveryData.h" />
@@ -175,6 +176,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbstractAdapter.cpp" />
+    <ClCompile Include="Guid.cpp" />
     <ClCompile Include="NetAdapter.cpp" />
     <ClCompile Include="NetAdapters.cpp" />
     <ClCompile Include="ParticipantDiscoveryData.cpp" />

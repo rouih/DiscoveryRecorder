@@ -54,6 +54,9 @@
     <ClInclude Include="WriterDiscoveryDataConverter.h">
       <Filter>Header Files\Converter</Filter>
     </ClInclude>
+    <ClInclude Include="Guid.h">
+      <Filter>Header Files\Converter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbstractAdapter.cpp">
@@ -79,6 +82,9 @@
     </ClCompile>
     <ClCompile Include="WriterDiscoveryDataConverter.cpp">
       <Filter>Source Files\Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="Guid.cpp">
+      <Filter>Source Files\Models</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
