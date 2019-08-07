@@ -30,6 +30,12 @@
     <ClInclude Include="SarigListener.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\PcapReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbstractAdapter.cpp">
@@ -42,6 +48,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SarigListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\PcapReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

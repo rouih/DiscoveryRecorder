@@ -23,32 +23,32 @@
     <ProjectGuid>{88CE085B-C692-498A-988C-CC2EF110CAA1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>DiscoveryRecorder</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -163,6 +163,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\packet.h" />
+    <ClInclude Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\PcapReader.h" />
     <ClInclude Include="AbstractAdapter.h" />
     <ClInclude Include="NetAdapter.h" />
     <ClInclude Include="NetAdapters.h" />
@@ -170,6 +172,8 @@
     <ClInclude Include="IAdapter.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\PcapReader.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\anan%27s PC\source\repos\DiscoveryRecorder\DiscoveryRecorder\DiscoveryRecorder\Source.cpp" />
     <ClCompile Include="AbstractAdapter.cpp" />
     <ClCompile Include="NetAdapter.cpp" />
     <ClCompile Include="NetAdapters.cpp" />
